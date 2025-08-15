@@ -39,7 +39,7 @@ mvn test
 ### Building and running JAR
 ```bash
 mvn clean package
-java -jar target/org-structure-analyzer-1.0-SNAPSHOT.jar path/to/employees.csv
+java -jar target/org-structure-analyzer-1.0-SNAPSHOT.jar employees_1000.csv
 ```
 
 ## CSV File Format
